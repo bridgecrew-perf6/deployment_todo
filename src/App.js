@@ -45,6 +45,7 @@ function App() {
       <input ref={todoNameRef} type="text" />
       <button onClick={handleAddTodo}> Add todo MIK</button>
       <button onClick={handleClearTodos}>Clear completed todo</button>
+      <div><a href="http://mikphp.000webhostapp.com/suntime/index.html">Suntime</a></div>
       <div>{todos.filter(todo => !todo.complete).length} left to do</div>
     </>
   )
